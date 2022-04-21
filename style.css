@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Titillium+Web:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: rgb(181, 177, 177);
+    width: 15vw;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 72px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.main{
+    background-color: yellowgreen;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+
+    background-color: purple;
+    height: 60vh;
+    width: 74vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.hello{
+    font-size: 85px;
+    font-weight: bold;
+}
+.name{
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about{
+    font-size: 30px;
+}
+
+
+
+.devPic img{
+
+    width: 78vw;
+}
